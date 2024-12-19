@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int so1, so2;
+	char dau;
+	cout << "Nhap so thu nhat: ";
+	cin >> so1;
+	cout << "Nhap so thu hai: ";
+	cin >> so2;
+	cout << "Nhap dau cua phep tinh: ";
+	cin >> dau;
+	int ketqua;
+	switch (dau)
+	{
+		case '+':
+			ketqua = so1 + so2;
+			cout << "Tong cua hai so la: " << ketqua;
+			break;
+		case '-':
+			ketqua = so1 - so2;
+			cout << "Hieu cua hai so la: " << ketqua;
+			break;
+		case '*':
+			ketqua = so1 * so2;
+			cout << "Tich cua hai so la: " << ketqua;
+			break;
+		case '/':
+			ketqua = so1 / so2;
+			cout << "Thuong cua hai so la: " << ketqua;
+			break;
+
+	}
+}
